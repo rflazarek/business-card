@@ -26,16 +26,27 @@ body {
 }
 
 .person {
+  display:flex;
+  align-items: start;
+  
 }
 
-.person__description{
+.person__description {
   font-size: 16px;
   line-height: 22px;
   margin: 0;
 }
 
-.person__link{
-  color:#E20613;
+.person__description--with-margin {
+  padding-bottom: 22px;
+}
+
+.person__info {
+  padding-bottom: 24px;
+}
+
+.person__link {
+  color: #e20613;
   text-decoration: none;
 }
 
@@ -45,6 +56,11 @@ body {
   font-weight: normal;
 }
 
+.person__photo{
+    margin-right: 32px;
+}
+
+
 .person__position {
   font-size: 18px;
   font-style: italic;
@@ -52,7 +68,7 @@ body {
   color: #545454;
 }
 
-.special{
-  color:#ED6D05;
+.special {
+  color: #ed6d05;
   font-weight: normal;
 }
